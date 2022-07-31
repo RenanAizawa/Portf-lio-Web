@@ -1,18 +1,12 @@
-import Nav from 'react-bootstrap/Nav';
+import Navlink from "./Navlink";
 
 function Header () {
   return (
-    <header className="">
-        <div>
-            <h3>
-              Portifolio Web
-            </h3>            
-        </div>
-        <Nav>
-            <Nav.Item>
-                <Nav.Link>Home</Nav.Link>
-            </Nav.Item>
-        </Nav>
+    <header className="flex-column ">
+        <h1>
+          Portifolio Web
+        </h1>            
+        <Navlink />
     </header>
   );
 }
