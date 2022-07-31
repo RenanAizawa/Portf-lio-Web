@@ -2,7 +2,11 @@ import Nav from 'react-bootstrap/Nav';
 
 function Navlink() {
   return (
-    <Nav className="flex-column" defaultActiveKey="/" as="ul">
+    <Nav
+      as="ul"
+      variant="pills"
+      className="justify-content-end"
+    >
             <Nav.Item  as="li">
                 <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>

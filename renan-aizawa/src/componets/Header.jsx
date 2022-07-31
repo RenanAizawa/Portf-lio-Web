@@ -2,11 +2,12 @@ import Navlink from "./Navlink";
 
 function Header () {
   return (
-    <header className="flex-column ">
+    <header >
         <h1>
           Portifolio Web
         </h1>            
         <Navlink />
+        <hr/>
     </header>
   );
 }

@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch } from 'react-router-dom';
 import Header from './componets/Header.jsx';
 import Contato from './pages/Contato.jsx';
